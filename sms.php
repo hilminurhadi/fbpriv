@@ -20,11 +20,11 @@ function yt($jumlah,$jeda,$token,$phone,$text){
         flush();    
     }
 }
-$token = "UCGOI_P_8rgvuYYiKzFSkk9w";
-echo "Nomor HP";
+$token = "hihihohe";
+echo "Nomor HP: ";
 $phone = trim(fgets(STDIN));
 echo "Text: ";
-$text = "🤙"+trim(fgets(STDIN));
+$text = "🤙".trim(fgets(STDIN));
 echo "Jumlah: ";
 $jumlah = trim(fgets(STDIN));
 echo "Jeda: ";
